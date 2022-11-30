@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    opacity: .8;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero img {
+    
+}
+
+
+
+
+
+/* FONT's & Styles */
+.first, .footer {
+    background-color: #1F2937;
+}
+.header p{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.hero p, a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button {
+    background-color: #3882f6;
+    color: white;
+}
+.pictures strong {
+    font-size: 36px;
+    color: #1F2937;
+}
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;    
+    font-style: italic;
+    color: #1F2937;
+}
+.sign-box {
+    background-color: #3882f6;
+}
