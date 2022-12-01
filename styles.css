@@ -34,19 +34,26 @@ a:hover {
 /* Second Section */
 .strong-one {
     text-align: center;
+    margin: 40px;
 }
 #pictures {
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 .img-boxes {
-    /* max-width: 200px; */
+    max-width: 200px;   
+}
+.img-boxes.last {
+    height: 415px;
 }
 #pictures img {
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: 250px;
+}
+.img-boxes p {
+    
 }
 
 
