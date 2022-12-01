@@ -1,8 +1,13 @@
-.header {
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
 ul {
     list-style: none;
     display: flex;
@@ -14,11 +19,11 @@ a {
 a:hover {
     opacity: .8;
 }
-.hero {
+/* .hero {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
 .hero img {
     
 }
