@@ -1,13 +1,8 @@
-.first {
+.header {
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
 }
-/* .header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-} */
 ul {
     list-style: none;
     display: flex;
@@ -19,14 +14,12 @@ a {
 a:hover {
     opacity: .8;
 }
-/* .hero {
+.hero {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-} */
-.hero img {
-    
+    align-items: center;  
 }
+
 
 
 
@@ -65,4 +58,8 @@ button {
 }
 .sign-box {
     background-color: #3882f6;
+}
+.hero button {
+    padding: 5px 25px;
+    border-radius: 10px;
 }
