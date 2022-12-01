@@ -73,7 +73,7 @@ button {
     background-color: #3882f6;
     color: white;
 }
-.pictures strong {
+#pictures, .strong-one{
     font-size: 36px;
     color: #1F2937;
 }
@@ -89,4 +89,14 @@ button {
 .hero button {
     padding: 5px 25px;
     border-radius: 10px;
+    border-style: none;
+}
+#sign-up button {
+    padding: 5px 25px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+button:hover {
+    opacity: .8;
+    cursor: pointer;
 }
