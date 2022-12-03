@@ -34,26 +34,21 @@ a:hover {
 /* Second Section */
 .strong-one {
     text-align: center;
-    margin: 40px;
+    margin-top: 50px;
 }
 #pictures {
-    text-align: center;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 50px 0 90px 0;
 }
 .img-boxes {
-    max-width: 200px;   
-}
-.img-boxes.last {
-    height: 415px;
+    overflow: hidden;
 }
 #pictures img {
-    width: auto;
-    height: 250px;
-}
-.img-boxes p {
-    
+    border-radius: 20px;
+    height: 200px;
+    border: 4px solid #3882f6;
 }
 
 
@@ -80,7 +75,7 @@ button {
     background-color: #3882f6;
     color: white;
 }
-#pictures, .strong-one{
+.strong-one{
     font-size: 36px;
     color: #1F2937;
 }
