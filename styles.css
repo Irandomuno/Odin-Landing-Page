@@ -61,7 +61,21 @@ a:hover {
     justify-content: flex-end;
 }
 
-
+/* Fourth Section */
+#sign-up {
+    display: flex;
+    justify-content: center;    
+}
+.sign-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 80px;
+    width: 70%;
+    border-radius: 10px;
+}
 
 
 /* Font's & Styles */
@@ -101,6 +115,12 @@ button {
 }
 .sign-box {
     background-color: #3882f6;
+}
+#sign-up {
+    color: white;
+}
+#sign-up p {
+    color: #f9faf8;
 }
 .hero button {
     padding: 5px 25px;
