@@ -31,6 +31,8 @@ a:hover {
     border-radius: 10px;
 }
 
+
+
 /* Second Section */
 .strong-one {
     text-align: center;
@@ -52,6 +54,8 @@ a:hover {
     border: 4px solid #3882f6;
 }
 
+
+
 /* Third Section */
 #quote {
     text-align: center;
@@ -62,24 +66,33 @@ a:hover {
     justify-content: flex-end;
 }
 
+
+
 /* Fourth Section */
 #sign-up {
     display: flex;
     justify-content: space-around;
-    margin: 9% 10%;
+    margin: 9% 11%;
     border-radius: 10px;
 }
 .sign-box {
     display: flex;
-    flex-direction: column;
-    height: 100px;    
-    flex-wrap: wrap;
-    border: 1px solid red;
+    flex-direction: column;  
+    padding: 30px;
+}
+
+.sign-box h4 {
+    margin-bottom: 0;
+}
+.sign-box p {
+    margin-top: 0;
 }
 .sign-button {
     display: flex;
     align-items: center;
 }
+
+
 
 
 /* Font's & Styles */
@@ -133,7 +146,7 @@ button {
 #sign-up button {
     padding: 5px 25px;
     border-radius: 10px;
-    border: 1px solid white;
+    border: 2px solid white;
 }
 button:hover {
     opacity: .8;
