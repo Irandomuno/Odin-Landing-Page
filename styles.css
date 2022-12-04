@@ -94,6 +94,14 @@ a:hover {
 
 
 
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 2%;
+}
+
+
+
 
 /* Font's & Styles */
 body {
@@ -151,4 +159,8 @@ button {
 button:hover {
     opacity: .8;
     cursor: pointer;
+}
+.footer {
+    color: #e5e7eb;
+    font-size: xx-small;
 }
